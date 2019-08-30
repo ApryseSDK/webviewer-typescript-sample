@@ -20,6 +20,14 @@ npm install
 
 ## Run
 
+Setup the TypeScript compiler to watch for changes and recompile the source file:
+
+```shell
+tsc --watch
+```
+
+Open a different shell service and run:
+
 ```shell
 npm start
 ```
