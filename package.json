@@ -1,0 +1,29 @@
+{
+  "name": "webviewer-typescript-sample",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@pdftron/webviewer-downloader": "^1.0.7",
+    "btoa": "^1.2.1",
+    "download": "^7.1.0",
+    "express": "^4.17.1",
+    "fs-extra": "^7.0.1",
+    "ip": "^1.1.5",
+    "opn": "^6.0.0",
+    "typescript": "^2.1.6"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "postinstall": "npm run download-webviewer",
+    "download-webviewer": "npx @pdftron/webviewer-downloader"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
