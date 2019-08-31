@@ -6,8 +6,8 @@ WebViewer({
     initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf',
   }, document.getElementById('viewer'))
   .then(function(instance) {
-    const docViewer: CoreControls.DocumentViewer  = instance.docViewer;
-    const annotManager: CoreControls.AnnotationManager = instance.annotManager;
+    const docViewer = instance.docViewer;
+    const annotManager = instance.annotManager;
     // call methods from instance, docViewer and annotManager as needed
   
     // you can also access major namespaces from the instance as follows:
