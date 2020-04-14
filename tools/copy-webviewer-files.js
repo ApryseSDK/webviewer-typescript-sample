@@ -4,7 +4,7 @@ const path = require('path');
 
 const copyFiles = async () => {
   const sourcePath = path.resolve('./node_modules/@pdftron/webviewer/public');
-  const destPath = path.resolve('./dist/lib/');
+  const destPath = path.resolve('./public/lib/');
 
   try {
     await fs.copy(sourcePath, destPath);

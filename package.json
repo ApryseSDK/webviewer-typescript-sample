@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "typescript": "^2.1.6",
-    "@pdftron/webviewer": "^6.2.3"
+    "@pdftron/webviewer": "^6.2.3",
+    "typescript": "^2.1.6"
   },
   "devDependencies": {
     "btoa": "^1.2.1",
@@ -13,7 +13,8 @@
     "fs-extra": "^7.0.1",
     "ip": "^1.1.5",
     "opn": "^6.0.0",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1"
   },
   "scripts": {
     "start": "parcel public/index.html",
@@ -25,5 +26,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  }
 }
