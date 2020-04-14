@@ -18,8 +18,7 @@
   },
   "scripts": {
     "start": "parcel public/index.html",
-    "watch": "tsc --watch",
-    "postinstall": "node tools/copy-webviewer-files.js"
+    "watch": "tsc --watch"
   },
   "browserslist": [
     ">0.2%",
@@ -28,7 +27,12 @@
     "not op_mini all"
   ],
   "staticFiles": {
-    "staticPath": "public",
+    "staticPath": [
+      {
+        "staticPath": "node_modules/@pdftron/webviewer/public",
+        "staticOutDir": "lib"
+      }
+    ],
     "watcherGlob": "**"
   }
 }
