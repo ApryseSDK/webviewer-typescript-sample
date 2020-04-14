@@ -2,7 +2,7 @@
 import WebViewer from '@pdftron/webviewer'
 WebViewer({
     path: '/lib', // path to the PDFTron 'lib' folder on your server
-    // licenseKey: 'Insert commercial license key here after purchase',
+    licenseKey: 'Insert commercial license key here after purchase',
     initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf',
   }, document.getElementById('viewer'))
   .then(function(instance) {
