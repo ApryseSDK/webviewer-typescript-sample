@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "typescript": "^2.1.6"
+    "typescript": "^2.1.6",
+    "@pdftron/webviewer": "^6.2.3"
   },
   "devDependencies": {
-    "@pdftron/webviewer-downloader": "^1.0.7",
     "btoa": "^1.2.1",
     "download": "^7.1.0",
     "express": "^4.17.1",
     "fs-extra": "^7.0.1",
     "ip": "^1.1.5",
     "opn": "^6.0.0",
-    "typescript": "^2.1.6"
+    "parcel": "^1.12.4"
   },
   "scripts": {
+    "start": "parcel public/index.html",
     "watch": "tsc --watch",
-    "postinstall": "npm run download-webviewer",
-    "download-webviewer": "npx @pdftron/webviewer-downloader"
+    "postinstall": "node tools/copy-webviewer-files.js"
   },
   "browserslist": [
     ">0.2%",
