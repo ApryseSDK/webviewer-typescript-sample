@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "module": "system",
         "noImplicitAny": true,
-        "preserveConstEnums": true
+        "preserveConstEnums": true,
+        "moduleResolution": "Node"
     },
     "include": [
         "src/**/*"

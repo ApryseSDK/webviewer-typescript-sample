@@ -1,7 +1,7 @@
 /// <reference path="../webviewer.d.ts" />
-
+import WebViewer from '@pdftron/webviewer'
 WebViewer({
-    path: '../public/lib', // path to the PDFTron 'lib' folder on your server
+    path: '/lib', // path to the PDFTron 'lib' folder on your server
     licenseKey: 'Insert commercial license key here after purchase',
     initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf',
   }, document.getElementById('viewer'))
