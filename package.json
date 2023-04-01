@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@pdftron/webviewer": "^8.0.0",
+    "@pdftron/webviewer": "^10.0.0",
     "typescript": "^2.1.6"
   },
   "devDependencies": {
@@ -13,7 +13,7 @@
     "fs-extra": "^7.0.1",
     "ip": "^1.1.5",
     "opn": "^6.0.0",
-    "parcel": "^1.12.4",
+    "parcel": "1.12.3",
     "parcel-plugin-static-files-copy": "^2.3.1"
   },
   "scripts": {
