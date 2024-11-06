@@ -49,7 +49,7 @@ npm start
 
 ## WebViewer APIs
 
-Most classes and functions are well documented in the TypeScript definition file. See [API documentation](https://docs.apryse.com/documentation/web/guides/full-api/).
+Most classes and functions are well documented in the TypeScript definition file. See [API documentation](https://docs.apryse.com/api/web/WebViewerInstance.html).
 
 ## Enabling full API
 
