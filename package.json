@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@pdftron/webviewer": "^10.0.0",
+    "@pdftron/webviewer": "^11.0.0",
     "typescript": "^2.1.6"
   },
   "devDependencies": {
